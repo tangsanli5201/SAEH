@@ -13,14 +13,14 @@ from keras.models import load_model, Model
 import scipy.io as sio
 import load_data
 
-which_data = "cifar10"
-test_size = 10
+which_data = "cifar10"  # dataset name
+test_size = 10   # should NOT be modified
 
 # path configuration
 load_path = "/opt/Data/tsl/ResNetHash/saved/2017101802/cifar10/su_ae/data/hash_su_ae.h5"
-hash_file_path = "./"+which_data+"_hash_12bits_res_testset_su_ae.mat"
+hash_file_path = "./"+which_data+"_hash_32bits_res_testset_su_ae.mat"
 
-hash_bits = 12
+hash_bits = 32  # bit length for hash codes (must be corresponding to the trained model)
 
 hash_output = None
 if __name__ == '__main__':
