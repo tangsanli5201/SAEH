@@ -8,7 +8,7 @@ generating binary hash codes are added to the objective function.  In our extens
 
 ## How to use this code?
 ### Training
-1. install keras and tensorflow
+1. install keras(>=0.8.0), tensorflow(>1.0) and numpy.
 2. python hash_su_ae_train.py
 
 
@@ -18,7 +18,7 @@ python generate_hash.py.
 
 ## Experiments
 ### Ablation Study for Auto-encoder Structure
-We remove the decoder structure from SAEH by setting the weight of decoder loss γ to 0 in the Eq.(7) in the paper.
+We remove the decoder structure from SAEH by setting the weight of decoder loss γ to 0 in the Eq.(7) in the paper, which is denoted as SAEH- in the paper (same in the following table). We also change the weight on the decoder loss γ to evaluate influences of the decoder network on the performance in image retrieval tasks.
 
 
 ###  Evaluation on SAEH and Other Methods
