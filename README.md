@@ -32,4 +32,4 @@ We compare our method with other hashing methods such as KSH，ITQ，DSH， CNNH
 
 ![Image on mAP](https://github.com/tangsanli5201/SAEH/blob/master/image/UT-ZAP50K_pr.jpg)
 
-![Image on precision rate](https://github.com/tangsanli5201/SAEH/blob/master/image/table2.JPG)
+![Image on precision rate](https://github.com/tangsanli5201/SAEH/blob/master/image/table1.JPG)
