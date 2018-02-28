@@ -30,6 +30,6 @@ We remove the decoder structure from SAEH by setting the weight of decoder loss 
 ###  Evaluation on SAEH and Other Methods
 We compare our method with other hashing methods such as KSH，ITQ，DSH， CNNH+， SSDH(we implement SSDH by replacing the Alexnet structure to Resnet50 for fair comparasion). The experiment results on mAP and precision rate (with Hamming distance r <= 2) are shown below.
 
-[Image on mAP](https://github.com/tangsanli5201/SAEH/blob/master/image/UT-ZAP50K_pr.jpg)
+![Image on mAP](https://github.com/tangsanli5201/SAEH/blob/master/image/UT-ZAP50K_pr.jpg)
 
-[Image on precision rate](https://github.com/tangsanli5201/SAEH/blob/master/image/table2.JPG)
+![Image on precision rate](https://github.com/tangsanli5201/SAEH/blob/master/image/table2.JPG)
