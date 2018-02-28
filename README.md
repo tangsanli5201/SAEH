@@ -19,6 +19,7 @@ python generate_hash.py.
 ## Experiments
 ### Ablation Study for Auto-encoder Structure
 We remove the decoder structure from SAEH by setting the weight of decoder loss γ to 0 in the Eq.(7) in the paper, which is denoted as SAEH- in the paper (same in the following table). We also change the weight on the decoder loss γ to evaluate influences of the decoder network on the performance in image retrieval tasks. The experiment result on decoder loss γ is illustrated on the following image.
+![Image on decoder loss](https://github.com/tangsanli5201/SAEH/blob/master/image/table2.JPG)
 
 
 ###  Evaluation on SAEH and Other Methods
