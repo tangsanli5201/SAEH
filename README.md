@@ -1,6 +1,6 @@
 ﻿# SAEH
 
-TThis is the source code implemented by Keras for the paper "DEEP SUPERVISED AUTO-ENCODER HASHING FOR IMAGE RETRIEVAL" (in proceeding).
+This is the source code implemented by Keras for the paper "DEEP SUPERVISED AUTO-ENCODER HASHING FOR IMAGE RETRIEVAL" (in proceeding).
 
 ## Abstruct
 Image hashing approaches map high dimensional images to compact binary codes since preserving similarities between image pairs. Although image label is the main information for supervised image hashing to generate hashing bits, such hashing bits should contain semantic information of various images. Therefore, we propose an effective supervised auto-encoder hashing method (SAEH) to generate a low dimensional binary codes in a point-wise manner of deep conventional neural network. The auto-encoder structure in SAEH is designed to simultaneously learn image features and generate hashing codes. Moreover, some extra relaxations for
@@ -18,7 +18,7 @@ python generate_hash.py.
 
 ## Experiments
 ### Ablation Study for Auto-encoder Structure
-We remove the decoder structure from SAEH by setting the weight of decoder loss γ to 0 in the Eq.(7) in the paper, which is denoted as SAEH- in the paper (same in the following table). We also change the weight on the decoder loss γ to evaluate influences of the decoder network on the performance in image retrieval tasks.
+We remove the decoder structure from SAEH by setting the weight of decoder loss γ to 0 in the Eq.(7) in the paper, which is denoted as SAEH- in the paper (same in the following table). We also change the weight on the decoder loss γ to evaluate influences of the decoder network on the performance in image retrieval tasks. The experiment result on decoder loss γ is illustrated on the following image.
 
 
 ###  Evaluation on SAEH and Other Methods
